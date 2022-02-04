@@ -1,0 +1,22 @@
+{
+  "name": "sts-js-voorbeelden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.2",
+    "browserify": "^17.0.0",
+    "jest": "^27.4.7",
+    "jsdom": "^19.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

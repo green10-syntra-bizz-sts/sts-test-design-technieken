@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zwembadkassa</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {padding: 1em;}
+        .gewoon {color: gray;}
+        .maximum {color: green;}
+        .korting {color: orange;}
+        .kortingsgrens {color: red;}
+        .fout {color: mediumpurple;}
+    </style>
+</head>
+<body>
+    <h1>Zwembadkassa</h1>
+    <form id="bereken-prijs-obv-leeftijd-form">
+        <label for="leeftijd-field">Leeftijd: </label>
+        <input id="leeftijd-field" name="leeftijdInput" type="text" placeholder="jaren">
+        <button id="bereken-button" type="submit">Bereken prijs</button>
+    </form>
+    <div id="kassa-feedback"></div>
+    <script src="bundle.js" type="module"></script>
+</body>
+</html>
